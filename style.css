@@ -1,0 +1,10 @@
+#test {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button {
+    margin: 5px;
+}

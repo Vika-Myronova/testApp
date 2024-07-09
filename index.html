@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <button id="start-btn">Почати тест</button>
+    <div id="test" style="display: none;">
+        <div id="question-container">
+            <p id="question-text"></p>
+            <div id="answer-options"> </div>
+        </div>
+        <div id="navigation">
+            <button id="prev-btn" disabled>Попереднє</button>
+            <button id="next-btn">Наступне</button>
+            <button id="finish-btn" style="display: none;">Завершити тест</button>
+        </div>
+    </div>
+    <div id="result" >
+        <p id="result-text"></p>
+    </div>
+</div>
+
+<script src="scrypt.js"></script>
+</body>
+</html>
